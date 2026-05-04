@@ -1,5 +1,5 @@
-#pragma once
 #include <string>
+#include <vector>
  
 class GradeBook {
 public:
@@ -14,5 +14,4 @@ private:
     std::vector<double> grades;
     double average;
     double highest;
-    int numGrades;
 };
