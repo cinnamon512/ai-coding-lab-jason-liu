@@ -9,5 +9,10 @@ public:
     double getHighest() const;
     int numGrades() const;
 private:
-    // You decide what goes here.
+// You decide what goes here.
+    std::vector<std::string> assignments;
+    std::vector<double> grades;
+    double average;
+    double highest;
+    int numGrades;
 };
